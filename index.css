@@ -1,0 +1,105 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+}
+.navbar img {
+    border-radius: 50%;
+}
+.navbar {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: lavender;
+}
+.navbar a {
+    text-align: right;
+    padding: 1rem 1.2rem;
+    padding: 27px;
+    color:black;
+    text-decoration:none;
+    font-size:17px;
+}
+.navbar a:hover{
+      color:yellowgreen;
+     }
+.cent {
+    display:flex;
+    justify-content: space-between;
+    margin-left: 380px;
+}
+ .cente {
+    position: relative;
+    height: 535px;
+    margin: 0 auto;
+    display:flex;
+    flex-direction: column;
+    justify-content: center; align-items: center;
+    color:black; 
+    background-color: lavender;  
+}
+.cente p {
+    color:green;
+}
+.cente h1 {
+    font-weight: inherit;
+    margin: 0;
+    padding: 0;
+}
+.foot {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin:0 20px;
+   text-decoration: none;
+}
+.foote {
+    background-color: 22313f;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+.person {
+    text-align: center;
+}
+.person h1 {
+    font-weight: inherit;
+}
+.root {
+   border: 1px solid #90c695!important; 
+   width:100px; 
+   height:100px;
+   border-radius: 50%; 
+   background: lavender;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 0 20px;
+}
+.root a {
+    text-decoration: none;
+    color:green;
+}
+.work {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.work h1 {
+    font-weight: inherit;
+}
+.work h4 {
+    font-weight: inherit;
+}
+.work img {
+    width: 100px; 
+    border-radius: 50%;
+}
+.intro {
+    display:flex; 
+    flex-direction: column; 
+    justify-content: space-between; 
+    align-items: center;
+}
+.intro h1 {
+     font-weight: inherit;
+}
