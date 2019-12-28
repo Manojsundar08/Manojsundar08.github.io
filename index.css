@@ -9,7 +9,7 @@ body {
     align-items: center;
     justify-content: center;
     width: 100%;
-    background-color: lavender;
+    background-color: e0ebe8;
 }
 .navbar a {
     text-align: right;
@@ -22,20 +22,21 @@ body {
 .navbar a:hover{
       color:yellowgreen;
      }
+     .intro p {
+         font-weight: bold;
+     }
 .cent {
     display:flex;
     justify-content: space-between;
     margin-left: 380px;
 }
  .cente {
-    position: relative;
-    height: 535px;
+    min-height: 55vh;
+    padding-top: 45vh;
+    text-align: center;
     margin: 0 auto;
-    display:flex;
-    flex-direction: column;
-    justify-content: center; align-items: center;
     color:black; 
-    background-color: lavender;  
+    background-color: e0ebe8;  
 }
 .cente p {
     color:green;
@@ -81,14 +82,17 @@ body {
 }
 .work {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-left: 100px;
+    background-color: white;
 }
-.work h1 {
+.person {
     font-weight: inherit;
-}
-.work h4 {
-    font-weight: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .work img {
     width: 100px; 
