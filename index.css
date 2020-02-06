@@ -61,17 +61,6 @@ nav img {
     margin: 0;
     padding: 0;
 }
- /* @media (max-width:500px){
-     .nav {
-         display: block;
-     }
-     .cente
-     .intro
-     .foot
-     .foote
-     .footer
-
- } */
 .foot {
    display: flex;
    justify-content: center;
@@ -165,4 +154,14 @@ nav img {
 }
 .project a {
     color: #009090;
+}
+.image {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.image img {
+    display:inline-block;
+    margin:15px 100px;
+    width:45%;
 }
