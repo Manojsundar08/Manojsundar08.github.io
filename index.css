@@ -157,11 +157,7 @@ nav img {
 }
 .image {
     display:flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-}
-.image img {
-    display:inline-block;
-    margin:15px 100px;
-    width:45%;
+    margin:0 29%;
 }
